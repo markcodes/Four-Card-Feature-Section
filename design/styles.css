@@ -39,11 +39,11 @@
     
     .headline {
         text-align: center;
-        padding: 2em 0;
+        padding: 1em 0;
     }
     
     .light {
-        color: var(--color-grayish-blue);
+        color: var(--color-very-dark-blue);
     }
     
     .headline-text {
@@ -54,6 +54,7 @@
     .headline-content {
         font-size: 16px;
         padding: 1em 0;
+        color: var(--color-very-dark-blue);
     }
     
     .thin {
@@ -101,12 +102,12 @@
     }
     
     .shadow {
-        box-shadow: 0 12px 20px 5px rgba(56, 56, 56, 0.246);
+        box-shadow: 0 12px 20px 5px rgba(149, 148, 148, 0.15);
     }
     
-    @media screen and (min-width: 724px) {
+    @media screen and (min-width: 601px) {
         .container {
-            max-width: 1120px;
+            max-width: 1100px;
         }
         body,
         .container {
@@ -131,26 +132,10 @@
         .box-1,
         .center-box,
         .box-4 {
-            flex-basis: 230px;
+            flex-basis: 31.5%;
         }
         .box-1,
         .box-4 {
             align-self: center;
-        }
-    }
-    
-    @media screen and (min-width: 807px) {
-        .box-1,
-        .center-box,
-        .box-4 {
-            flex-basis: 300px;
-        }
-    }
-    
-    @media screen and (min-width: 1025px) {
-        .box-1,
-        .center-box,
-        .box-4 {
-            flex-basis: 350px;
         }
     }
